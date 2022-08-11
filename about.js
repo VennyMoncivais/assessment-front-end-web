@@ -1,0 +1,19 @@
+console.log("hello world");
+
+
+
+function handleSubmit(evt) {
+	evt.preventDefault();
+	
+	alert("Success! The form has been sumbitted!");
+}
+
+
+
+let form = document.querySelector('#contact');
+
+form.addEventListener('submit', handleSubmit);
+
+function catMouseOver(evt) {
+	document.getElementById("catPicture")
+}
